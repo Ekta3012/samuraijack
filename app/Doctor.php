@@ -10,5 +10,5 @@ class Doctor extends Model
 
     public $timestamps = false;
 
-    protected $fillable= ['first_name','last_name','email','phone'];
+    protected $fillable= ['first_name','last_name','email','phone','is_active'];
 }

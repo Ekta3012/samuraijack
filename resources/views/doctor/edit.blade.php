@@ -27,6 +27,9 @@
 		    {!! Form::text('phone', $doctor->phone, ['class' => 'form-control']) !!}
 		</div>
 
+		<!-- <div class="form-group">
+			<input class="field" checked data-toggle="toggle" name="is_active" type="checkbox" value={{ $doctor->is_active }}>
+		</div> -->
 		{!! Form::submit('Update', ['class' => 'btn btn-primary']) !!}
 
 		{!! Form::close() !!}
